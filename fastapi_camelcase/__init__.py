@@ -7,7 +7,7 @@ then encode it back again.
 
 example if the request.body = {"myVal":"Hello_world"},
 the module will convert it to {"my_val":"Hello_world"}
-and videversa
+and viceversa
 
 """
 from humps import camelize
