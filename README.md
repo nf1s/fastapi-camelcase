@@ -6,9 +6,10 @@ while keeping your python code snake cased.
 ## How to install
     pip install fastapi-camelcase
 
+## Dependencies 
+    pydantic
 
 ## How to use
-
     # using CamelModel instead of Pydantic BaseModel
     from fastapi_camelcase import CamelModel
 
@@ -17,8 +18,6 @@ while keeping your python code snake cased.
         first_name: str
         last_name: str
         age: int
-
-
 
 
 ## How to use (full example)
