@@ -1,5 +1,5 @@
 # sanic_camelcase_middlware
-Pakcage for providing a class for camelizing request and response bodies for fastapi
+Package for providing a class for camelizing request and response bodies for fastapi
 while keeping your python code snake cased.
 
 ## How to install
