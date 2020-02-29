@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+pre-commit = "*"
+
+[packages]
+pydantic = "*"
+fastapi = "*"
+pyhumps = "*"
+pytest = "*"
+coverage = "*"
+coverage-badge = "*"
+twine = "*"
+uvicorn = "*"
+
+[requires]
+python_version = "3.7"

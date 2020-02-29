@@ -1,0 +1,12 @@
+# .coveragerc to control coverage.py
+[run]
+branch = True
+
+[report]
+include =
+    sanic_camelcase_middleware/__init__.py
+
+ignore_errors = True
+
+[html]
+directory = coverage_html_report
