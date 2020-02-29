@@ -4,7 +4,7 @@ branch = True
 
 [report]
 include =
-    sanic_camelcase_middleware/__init__.py
+    fastapi_camelcase/__init__.py
 
 ignore_errors = True
 
