@@ -16,6 +16,8 @@ coverage = "*"
 coverage-badge = "*"
 twine = "*"
 uvicorn = "*"
+mkdocs = "*"
+mkdocs-material = "*"
 
 [requires]
 python_version = "3.7"
