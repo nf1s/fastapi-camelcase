@@ -3,11 +3,14 @@
 Package for providing a class for camelizing request and response bodies for fastapi
 while keeping your python code snake cased.
 
+Full Documentation can be found [here](https://ahmednafies.github.io/fastapi_camelcase/)
+
 ## How to install
     pip install fastapi-camelcase
 
 ## Dependencies 
     pydantic
+    pyhumps
 
 ## How to use
     # using CamelModel instead of Pydantic BaseModel
