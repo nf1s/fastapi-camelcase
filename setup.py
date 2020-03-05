@@ -3,7 +3,7 @@ from setuptools import setup
 with open("README.md") as f:
     long_description = f.read()
 
-VERSION = "0.0.3"
+VERSION = "0.0.4"
 
 setup(
     name="fastapi_camelcase",
@@ -11,7 +11,7 @@ setup(
     description="Package provides an easy way to have camelcase request/response bodies for Pydantic",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="http://github.com/ahmednafies/fastapi_camelcase",
+    url="https://ahmednafies.github.io/fastapi_camelcase/",
     author="Ahmed Nafies",
     author_email="ahmed.nafies@gmail.com",
     license="MIT",

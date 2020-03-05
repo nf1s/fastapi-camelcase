@@ -10,6 +10,7 @@ Full Documentation can be found [here](https://ahmednafies.github.io/fastapi_cam
 
 ## Dependencies 
     pydantic
+    pyhumps
 
 ## How to use
     # using CamelModel instead of Pydantic BaseModel

@@ -7,6 +7,7 @@ Full code can be found on [github](https://github.com/ahmednafies/fastapi_camelc
 
 ## Dependencies 
     pydantic
+    pyhumps
 
 ## Usage
     # using CamelModel instead of Pydantic BaseModel
