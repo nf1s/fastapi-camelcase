@@ -28,9 +28,9 @@ jobs:
                   command: |
                       pipenv run coverage run -m pytest tests.py
                       pipenv run coverage report
-                      pipenv run coverage html
+                      pipenv run coverage json
             - store_artifacts:
-                  path: htmlcov
+                  path: coverage.json
             - codecov/upload:
-                  file: { { htmlcov } }
+                  file: coverage.json
                   flags: backend
