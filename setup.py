@@ -3,7 +3,7 @@ from setuptools import setup
 with open("README.md") as f:
     long_description = f.read()
 
-VERSION = "0.1.2"
+VERSION = "0.1.3"
 
 setup(
     name="fastapi_camelcase",
@@ -30,5 +30,5 @@ setup(
         "Programming Language :: Python :: 3.8",
     ],
     zip_safe=False,
-    # python_requires=">=3.6",
+    python_requires=">=3.6",
 )
