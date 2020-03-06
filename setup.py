@@ -3,7 +3,7 @@ from setuptools import setup
 with open("README.md") as f:
     long_description = f.read()
 
-VERSION = "0.1.3"
+VERSION = "0.1.4"
 
 setup(
     name="fastapi_camelcase",
