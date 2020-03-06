@@ -1,3 +1,6 @@
+version: 2.1 # use CircleCI 2.1
+orbs:
+    codecov: codecov/codecov@1.0.5
 jobs:
     build:
         working_directory: ~/fastapi_camelcase
@@ -28,3 +31,6 @@ jobs:
                       pipenv run coverage html
             - store_artifacts:
                   path: htmlcov
+            - codecov/upload:
+                  file: coverage/*.json
+                  flags: frontend

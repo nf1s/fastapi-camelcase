@@ -11,3 +11,4 @@
 .coverage
 .pytest_cache
 .pypirc
+.env
