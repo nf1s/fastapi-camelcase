@@ -1,5 +1,5 @@
 [![CircleCI](https://circleci.com/gh/ahmednafies/fastapi_camelcase.svg?style=shield)](https://circleci.com/gh/ahmednafies/fastapi_camelcase) ![](./coverage.svg)
-# fastapi_camelcase
+# Fastapi Camelcase
 Package for providing a class for camelizing request and response bodies for fastapi
 while keeping your python code snake cased.
 
