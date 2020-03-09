@@ -1,15 +1,19 @@
+# FastAPI Camelcase
+
 [![CircleCI](https://circleci.com/gh/ahmednafies/fastapi_camelcase.svg?style=shield)](https://circleci.com/gh/ahmednafies/fastapi_camelcase) [![codecov](https://codecov.io/gh/ahmednafies/fastapi_camelcase/branch/master/graph/badge.svg)](https://codecov.io/gh/ahmednafies/fastapi_camelcase)
-# fastapi_camelcase
+
 Package for providing a class for camelizing request and response bodies for fastapi
 while keeping your python code snake cased.
 
 Full code can be found on [github](https://github.com/ahmednafies/fastapi_camelcase)
 
-## Dependencies 
+## Dependencies
+
     pydantic
     pyhumps
 
 ## Usage
+
     # using CamelModel instead of Pydantic BaseModel
     from fastapi_camelcase import CamelModel
 
@@ -18,4 +22,3 @@ Full code can be found on [github](https://github.com/ahmednafies/fastapi_camelc
         first_name: str
         last_name: str
         age: int
-
