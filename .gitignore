@@ -12,3 +12,4 @@
 .pytest_cache
 .pypirc
 .env
+.mypy_cache

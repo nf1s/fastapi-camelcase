@@ -17,6 +17,7 @@ twine = "*"
 uvicorn = "*"
 mkdocs = "*"
 mkdocs-material = "*"
+mypy = "*"
 
 [requires]
 python_version = "3.7"
