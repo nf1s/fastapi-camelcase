@@ -13,7 +13,7 @@ install:
 	pipenv install
 
 deploy-docs:
-	mkdocs gh-deploy
+	pipenv run mkdocs gh-deploy
 
 serve-docs:
-	mkdocs serve
+	pipenv run mkdocs serve
