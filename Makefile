@@ -1,8 +1,8 @@
 test:
-	pipenv run pytest
+	pipenv run pytest tests.py
 
 test-coverage:
-	pipenv run coverage run -m pytest
+	pipenv run coverage run -m pytest tests.py
 	pipenv run coverage report
 
 deploy:
