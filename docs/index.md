@@ -14,11 +14,13 @@ Full code can be found on [github](https://github.com/ahmednafies/fastapi_camelc
 
 ## Usage
 
-    # using CamelModel instead of Pydantic BaseModel
-    from fastapi_camelcase import CamelModel
+```python
+# using CamelModel instead of Pydantic BaseModel
+from fastapi_camelcase import CamelModel
 
 
-    class User(CamelModel):
-        first_name: str
-        last_name: str
-        age: int
+class User(CamelModel):
+    first_name: str
+    last_name: str
+    age: int
+```
