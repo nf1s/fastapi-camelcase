@@ -7,3 +7,5 @@ theme:
   name: "material"
   palette:
     primary: "green"
+markdown_extensions:
+  - codehilite
