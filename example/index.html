@@ -287,33 +287,33 @@
                   <h1>Full Example</h1>
                 
                 <h2 id="how-to-use-full-example">How to use (full example)</h2>
-<pre><code class="python">import uvicorn
-from fastapi import FastAPI
-from fastapi_camelcase import CamelModel
+<div class="codehilite"><pre><span></span><code><span class="kn">import</span> <span class="nn">uvicorn</span>
+<span class="kn">from</span> <span class="nn">fastapi</span> <span class="kn">import</span> <span class="n">FastAPI</span>
+<span class="kn">from</span> <span class="nn">fastapi_camelcase</span> <span class="kn">import</span> <span class="n">CamelModel</span>
 
 
-class User(CamelModel):
-    first_name: str
-    last_name: str
-    age: int
+<span class="k">class</span> <span class="nc">User</span><span class="p">(</span><span class="n">CamelModel</span><span class="p">):</span>
+    <span class="n">first_name</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">last_name</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">age</span><span class="p">:</span> <span class="nb">int</span>
 
 
-app = FastAPI()
+<span class="n">app</span> <span class="o">=</span> <span class="n">FastAPI</span><span class="p">()</span>
 
 
-@app.get(&quot;/user/get&quot;, response_model=User)
-async def get_user():
-    return User(first_name=&quot;John&quot;, last_name=&quot;Doe&quot;, age=30)
+<span class="nd">@app</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;/user/get&quot;</span><span class="p">,</span> <span class="n">response_model</span><span class="o">=</span><span class="n">User</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">get_user</span><span class="p">():</span>
+    <span class="k">return</span> <span class="n">User</span><span class="p">(</span><span class="n">first_name</span><span class="o">=</span><span class="s2">&quot;John&quot;</span><span class="p">,</span> <span class="n">last_name</span><span class="o">=</span><span class="s2">&quot;Doe&quot;</span><span class="p">,</span> <span class="n">age</span><span class="o">=</span><span class="mi">30</span><span class="p">)</span>
 
 
-@app.post(&quot;/user/create&quot;, response_model=User)
-async def create_user(user: User):
-    return user
+<span class="nd">@app</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;/user/create&quot;</span><span class="p">,</span> <span class="n">response_model</span><span class="o">=</span><span class="n">User</span><span class="p">)</span>
+<span class="k">async</span> <span class="k">def</span> <span class="nf">create_user</span><span class="p">(</span><span class="n">user</span><span class="p">:</span> <span class="n">User</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">user</span>
 
 
-if __name__ == &quot;__main__&quot;:
-    uvicorn.run(app, host=&quot;0.0.0.0&quot;, port=8000)
-</code></pre>
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">uvicorn</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">app</span><span class="p">,</span> <span class="n">host</span><span class="o">=</span><span class="s2">&quot;0.0.0.0&quot;</span><span class="p">,</span> <span class="n">port</span><span class="o">=</span><span class="mi">8000</span><span class="p">)</span>
+</code></pre></div>
                 
                   
                 
