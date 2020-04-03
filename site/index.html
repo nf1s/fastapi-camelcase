@@ -310,19 +310,21 @@
 while keeping your python code snake cased.</p>
 <p>Full code can be found on <a href="https://github.com/ahmednafies/fastapi_camelcase">github</a></p>
 <h2 id="dependencies">Dependencies</h2>
-<pre><code>pydantic
-pyhumps
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="err">pydantic</span>
+<span class="err">pyhumps</span>
+</code></pre></div>
+
+
 <h2 id="usage">Usage</h2>
-<pre><code class="python"># using CamelModel instead of Pydantic BaseModel
-from fastapi_camelcase import CamelModel
+<div class="codehilite"><pre><span></span><code><span class="c1"># using CamelModel instead of Pydantic BaseModel</span>
+<span class="kn">from</span> <span class="nn">fastapi_camelcase</span> <span class="kn">import</span> <span class="n">CamelModel</span>
 
 
-class User(CamelModel):
-    first_name: str
-    last_name: str
-    age: int
-</code></pre>
+<span class="k">class</span> <span class="nc">User</span><span class="p">(</span><span class="n">CamelModel</span><span class="p">):</span>
+    <span class="n">first_name</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">last_name</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">age</span><span class="p">:</span> <span class="nb">int</span>
+</code></pre></div>
                 
                   
                 
