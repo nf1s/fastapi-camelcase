@@ -13,13 +13,13 @@ and viceversa
 from humps import camelize
 from pydantic import BaseModel
 
-
-def to_camel(string):
-    return camelize(string)
+__author__ = "Ahmed Nafies Okasha Mohamed <ahmed.nafies@gmail.com>"
+__copyright__ = "Copyright 2020, Ahmed Nafies Okasha Mohamed"
+__license__ = "MIT"
+__version__ = "1.0.0"
 
 
 class CamelModel(BaseModel):
     class Config:
-        alias_generator = to_camel
+        alias_generator = camelize
         allow_population_by_field_name = True
-

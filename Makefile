@@ -1,8 +1,8 @@
 test:
-	pipenv run pytest
+	pipenv run pytest tests.py
 
 test-coverage:
-	pipenv run coverage run -m pytest
+	pipenv run coverage run -m pytest tests.py
 	pipenv run coverage report
 
 deploy:
@@ -13,7 +13,7 @@ install:
 	pipenv install
 
 deploy-docs:
-	mkdocs gh-deploy
+	pipenv run mkdocs gh-deploy
 
 serve-docs:
-	mkdocs serve
+	pipenv run mkdocs serve
