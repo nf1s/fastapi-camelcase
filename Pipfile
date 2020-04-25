@@ -19,6 +19,7 @@ uvicorn = "*"
 mkdocs = "*"
 mkdocs-material = "*"
 mypy = "*"
+jeepney = ">=0.4.2"
 
 [requires]
 python_version = "3.7"
