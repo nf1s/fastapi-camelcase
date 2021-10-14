@@ -16,7 +16,7 @@ from pydantic import BaseModel
 __author__ = "Ahmed Nafies Okasha Mohamed <ahmed.nafies@gmail.com>"
 __copyright__ = "Copyright 2020, Ahmed Nafies Okasha Mohamed"
 __license__ = "MIT"
-__version__ = "1.0.2"
+__version__ = "1.0.3"
 
 
 class CamelModel(BaseModel):
