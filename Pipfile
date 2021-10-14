@@ -10,6 +10,7 @@ pygments = "*"
 
 [packages]
 pydantic = "*"
+typing-extensions = "*"
 fastapi = "*"
 pyhumps = "*"
 pytest = "*"
@@ -22,7 +23,7 @@ mypy = "*"
 jeepney = ">=0.4.2"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
 
 [pipenv]
 allow_prereleases = true
