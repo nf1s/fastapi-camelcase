@@ -13,10 +13,10 @@ and viceversa
 from humps import camelize
 from pydantic import BaseModel
 
-__author__ = "Ahmed Nafies Okasha Mohamed <ahmed.nafies@gmail.com>"
-__copyright__ = "Copyright 2020, Ahmed Nafies Okasha Mohamed"
+__author__ = "Ahmed Nafies <ahmed.nafies@gmail.com>"
+__copyright__ = "Copyright 2020, Ahmed Nafies"
 __license__ = "MIT"
-__version__ = "1.0.3"
+__version__ = "1.0.4"
 
 
 class CamelModel(BaseModel):
