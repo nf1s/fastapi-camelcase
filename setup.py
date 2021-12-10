@@ -17,15 +17,15 @@ setup(
     description="Package provides an easy way to have camelcase request/response bodies for Pydantic",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://ahmednafies.github.io/fastapi_camelcase/",
+    url="https://nf1s.github.io/fastapi-camelcase/",
     author="Ahmed Nafies",
     author_email="ahmed.nafies@gmail.com",
     license="MIT",
     packages=["fastapi_camelcase"],
     install_requires=["pydantic", "pyhumps"],
     project_urls={
-        "Documentation": "https://ahmednafies.github.io/fastapi_camelcase/",
-        "Source": "https://github.com/ahmednafies/fastapi_camelcase",
+        "Documentation": "https://nf1s.github.io/fastapi-camelcase/",
+        "Source": "https://github.com/nf1s/fastapi-camelcase",
     },
     classifiers=[
         "Intended Audience :: Developers",
