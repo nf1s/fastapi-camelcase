@@ -13,3 +13,4 @@
 .pypirc
 .env
 .mypy_cache
+.undodir

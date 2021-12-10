@@ -1,11 +1,11 @@
-[![CircleCI](https://circleci.com/gh/ahmednafies/fastapi_camelcase.svg?style=shield)](https://circleci.com/gh/ahmednafies/fastapi_camelcase) [![codecov](https://codecov.io/gh/ahmednafies/fastapi_camelcase/branch/master/graph/badge.svg)](https://codecov.io/gh/ahmednafies/fastapi_camelcase) [![Downloads](https://pepy.tech/badge/fastapi-camelcase)](https://pepy.tech/project/fastapi-camelcase) ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/ahmednafies/fastapi_camelcase) ![GitHub](https://img.shields.io/github/license/ahmednafies/fastapi_camelcase)
+[![CircleCI](https://circleci.com/gh/nf1s/fastapi-camelcase.svg?style=shield)](https://circleci.com/gh/nf1s/fastapi-camelcase) [![codecov](https://codecov.io/gh/nf1s/fastapi-camelcase/branch/master/graph/badge.svg)](https://codecov.io/gh/nf1s/fastapi-camelcase) [![Downloads](https://pepy.tech/badge/fastapi-camelcase)](https://pepy.tech/project/fastapi-camelcase) ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/nf1s/fastapi-camelcase) ![GitHub](https://img.shields.io/github/license/nf1s/fastapi-camelcase)
 
 # Fastapi Camelcase
 
 Package for providing a class for camelizing request and response bodies for fastapi
 while keeping your python code snake cased.
 
-Full documentation can be found [here](https://ahmednafies.github.io/fastapi_camelcase/)
+Full documentation can be found [here](https://nf1s.github.io/fastapi-camelcase/)
 
 ## How to install
 
