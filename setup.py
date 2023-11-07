@@ -22,6 +22,7 @@ setup(
     author_email="ahmed.nafies@gmail.com",
     license="MIT",
     packages=["fastapi_camelcase"],
+    package_data={"fastapi_camelcase": ["py.typed"]},
     install_requires=["pydantic", "pyhumps"],
     project_urls={
         "Documentation": "https://nf1s.github.io/fastapi-camelcase/",
