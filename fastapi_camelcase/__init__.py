@@ -10,16 +10,14 @@ the module will convert it to {"my_val":"Hello_world"}
 and viceversa
 
 """
-from humps import camelize
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
+from pydantic.alias_generators import to_camel
 
 __author__ = "Ahmed Nafies <ahmed.nafies@gmail.com>"
 __copyright__ = "Copyright 2020, Ahmed Nafies"
 __license__ = "MIT"
-__version__ = "1.0.5"
+__version__ = "2.0.0"
 
 
 class CamelModel(BaseModel):
-    class Config:
-        alias_generator = camelize
-        allow_population_by_field_name = True
+    model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
