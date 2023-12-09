@@ -8,7 +8,7 @@ commands:
     steps:
       - checkout
       - run: sudo chown -R circleci:circleci /usr/local/bin
-      - run: sudo chown -R circleci:circleci /usr/local/lib/python3.8/site-packages
+      - run: sudo chown -R circleci:circleci /usr/local/lib/python3.9/site-packages
       - restore_cache:
           key: deps9-{{ .Branch }}-{{ checksum "Pipfile.lock" }}
       - run:
@@ -20,7 +20,7 @@ commands:
           paths:
             - ".venv"
             - "/usr/local/bin"
-            - "/usr/local/lib/python3.8/site-packages"
+            - "/usr/local/lib/python3.9/site-packages"
   test:
     steps:
       - run:
