@@ -50,7 +50,7 @@ jobs:
   test:
     working_directory: ~/fastapi-camelcase
     docker:
-      - image: circleci/python:3.8.3
+      - image: circleci/python:3.9
     steps:
       - build
       - test
@@ -58,7 +58,7 @@ jobs:
   deploy:
     working_directory: ~/fastapi-camelcase
     docker:
-      - image: circleci/python:3.8.3
+      - image: circleci/python:3.9
     steps:
       - build
       - deploy
