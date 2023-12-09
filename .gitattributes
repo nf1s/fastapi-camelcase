@@ -1,1 +1,4 @@
 site/* linguist-vendored=true
+*.html linguist-detectable=false
+*.py linguist-language=Python
+
